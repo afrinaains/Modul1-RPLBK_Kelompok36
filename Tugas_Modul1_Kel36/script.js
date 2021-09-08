@@ -16,6 +16,16 @@ const output = () => {
     setTimeout( () => console.log ("Selamat Datang di Tugas Modul 1 RPLBK Kelompok 36") ,1000) ;
     setTimeout( () => console.log ("Semoga betah ya kak! fufu"), 3000);
 }
+const nim = () => {
+    nimSaya = document.getElementById("nimSaya").value;
+  (nimSaya == "" || !nimSaya) ?
+      alert ("Data Masih Kosong!!!") || console.log("Silakan isi NIM anda terlebih dahulu!") : hasilnim()
+}
+const hasilnim = () => {
+    old=nimSaya
+    setTimeout( () => console.log (old+" ") ,2000);
+    setTimeout( () => console.log ("NIM Anda adalah") ,1000) ;
+}
 const umur = () => {
     umurSaya = document.getElementById("umurSaya").value;
   (umurSaya == "" || !umurSaya) ?
