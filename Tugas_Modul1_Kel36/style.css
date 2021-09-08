@@ -1,32 +1,32 @@
-        .datang {
-            color :black;
-            text-align: center;
-            font-size: 30px;
-        }
-        .isi {
-            color : black;
-            text-align: left;
-            font-size: 18px;
-        }
-            .input_data {
-            margin: 250px auto;
-            width: 400px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            background: lightblue;
-        }
-        input[type=nama], input[type=umur] {
-            border: 2px solid red;
-            border-radius: 4px;
-            width: 60%;
-            padding: 10px;
-        }
-        .button {
-            float: right;
-            padding: 5px;
-            width: 90px;
-            border: 1px solid #fff;
-            color: rgba(248, 248, 255);
-            background: red;
-            cursor: pointer;
-        }
+.datang {
+    color :black;
+    text-align: center;
+    font-size: 30px;
+}
+.isi {
+    color : black;
+    text-align: left;
+    font-size: 18px;
+}
+    .input_data {
+    margin: 250px auto;
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: lightblue;
+}
+input[type=nama], input[type=nim], input[type=umur]{
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 60%;
+    padding: 10px;
+}
+.button {
+    float: right;
+    padding: 5px;
+    width: 90px;
+    border: 1px solid #fff;
+    color: rgba(255, 255, 255);
+    background: red;
+    cursor: pointer;
+}
